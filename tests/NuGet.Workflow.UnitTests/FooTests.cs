@@ -1,5 +1,5 @@
-﻿using System;
-using FluentAssertions;
+﻿using FluentAssertions;
+using Itabaiyu.NuGet.Workflow;
 using NUnit.Framework;
 
 namespace NuGet.Workflow.UnitTests
