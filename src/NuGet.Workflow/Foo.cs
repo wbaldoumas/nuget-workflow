@@ -3,6 +3,6 @@
     // mock code to package up.
     public class Foo
     {
-        public string Bar() => "Bars";
+        public string Bar() => "Bar";
     }
 }
