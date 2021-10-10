@@ -20,5 +20,5 @@ jobs:
     - name: Publish NuGet
       uses: brandedoutcast/publish-nuget@v2.5.5
       with:
-        PROJECT_FILE_PATH: src/NuGet.Workflow/NuGet.Workflow.csproj
+        PROJECT_FILE_PATH: src/NuGet.Workflow/Itabaiyu.NuGet.Workflow.csproj
         NUGET_KEY: ${{secrets.NUGET_API_KEY}}

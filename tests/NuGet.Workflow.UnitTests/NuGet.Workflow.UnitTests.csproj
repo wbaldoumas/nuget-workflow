@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\NuGet.Workflow\NuGet.Workflow.csproj" />
+    <ProjectReference Include="..\..\src\NuGet.Workflow\Itabaiyu.NuGet.Workflow.csproj" />
   </ItemGroup>
 
 </Project>
