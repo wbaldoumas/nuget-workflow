@@ -25,6 +25,6 @@ jobs:
     - name: Pack NuGet
       run: cd src && dotnet pack --no-build --configuration Release /p:Version=${VERSION} --output .
     - name: Publish NuGet
-      run: cd src && dotnet nuget push *.nupkg --source https://api.nuget.org/v3/index.json --api-key ${NUGET_KEY} --skip-duplicate --no-symbols
+      run: cd src && dotnet nuget push *.nupkg --source https://api.nuget.org/v3/index.json --api-key ${NUGET_KEY} --skip-duplicate --no-symbols true
       env:
         NUGET_KEY: ${{ secrets.NUGET_API_KEY }}
