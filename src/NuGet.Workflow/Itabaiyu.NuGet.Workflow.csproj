@@ -1,11 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <Target Name="PreparePackageReleaseNotesFromFile" BeforeTargets="GenerateNuspec">
-    <PropertyGroup>
-      <PackageReleaseNotes>$([System.IO.File]::ReadAllText("..\..\CHANGELOG.md")</PackageReleaseNotes>
-    </PropertyGroup>
-  </Target>
-
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -19,6 +13,11 @@
     <Copyright>Copyright (c) wbaldoumas 2021</Copyright>
     <PackageIcon>icon.png</PackageIcon>
     <PackageIconUrl />
+    <PackageReleaseNotes>
+## v0.0.4
+### Added
+- CHANGELOG.md
+</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
