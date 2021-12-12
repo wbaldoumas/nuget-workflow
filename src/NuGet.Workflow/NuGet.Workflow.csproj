@@ -7,7 +7,7 @@
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Title>NuGet Workflow</Title>
 		<PackageId>Wbaldoumas.NuGet.Workflow</PackageId>
-		<Version>0.0.1</Version>
+		<Version>0.0.2</Version>
 		<Authors>wbaldoumas</Authors>
 		<Company>Will Baldoumas</Company>
 		<Description>An example NuGet package.</Description>

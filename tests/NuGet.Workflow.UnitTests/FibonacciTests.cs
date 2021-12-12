@@ -16,7 +16,7 @@ namespace NuGet.Workflow.UnitTests
         {
             // arrange
             const int takeCount = 10000;
-            var fibonacci = new Fibonacci();
+            var fibonacci = new Fibonacci().Get();
 
             // act
             var fibonacciNumbers = fibonacci.Take(takeCount).ToList();
