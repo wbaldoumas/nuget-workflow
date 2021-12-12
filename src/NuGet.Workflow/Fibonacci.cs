@@ -7,9 +7,9 @@ namespace NuGet.Workflow
     /// <summary>
     ///     Represents the Fibonacci sequence.
     /// </summary>
-    public class Fibonacci
+    public class Fibonacci : IEnumerable<BigInteger>
     {
-        public IEnumerable<BigInteger> Get()
+        public IEnumerator<BigInteger> GetEnumerator()
         {
             (BigInteger first, BigInteger second) = (0, 1);
 
@@ -23,5 +23,7 @@ namespace NuGet.Workflow
                 second = result + second;
             }
         }
+
+        IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
     }
 }
