@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.1</TargetFrameworks>
+		<Nullable>enable</Nullable>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Title>NuGet Workflow</Title>
+		<PackageId>NuGet.Workflow</PackageId>
+		<Version>0.0.1</Version>
+		<Authors>wbaldoumas</Authors>
+		<Company>Will Baldoumas</Company>
+		<Description>An example NuGet package.</Description>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/wbaldoumas/nuget-workflow</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/wbaldoumas/nuget-workflow</PackageProjectUrl>
+		<PackageTags>example;fibonacci</PackageTags>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<Copyright>Copyright (c) Will Baldoumas 2021</Copyright>
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\assets\icon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\..\LICENSE">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+		<None Include="..\..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>

@@ -1,2 +1,3 @@
 # nuget-workflow
-A repository for testing working with NuGet via GitHub actions.
+
+An example NuGet package. Packages up a naive implementation of the Fibonacci sequence, for example purposes.
