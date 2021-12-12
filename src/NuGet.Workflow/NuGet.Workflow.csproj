@@ -6,7 +6,7 @@
 		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Title>NuGet Workflow</Title>
-		<PackageId>NuGet.Workflow</PackageId>
+		<PackageId>Wbaldoumas.NuGet.Workflow</PackageId>
 		<Version>0.0.1</Version>
 		<Authors>wbaldoumas</Authors>
 		<Company>Will Baldoumas</Company>
