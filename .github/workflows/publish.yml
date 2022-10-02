@@ -18,7 +18,7 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Publish NuGet
-      uses: brandedoutcast/publish-nuget@v2.5.5
+      uses: alirezanet/publish-nuget@v3.0.4
       with:
         PROJECT_FILE_PATH: src/NuGet.Workflow/NuGet.Workflow.csproj
         NUGET_KEY: ${{secrets.NUGET_API_KEY}}
